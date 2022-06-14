@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "dsfappearancemanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dagronf/DSFAppearanceManager",
+      "state" : {
+        "revision" : "628176ce8f4bf8165d97e440b5fb59eb676b1779",
+        "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "dsfstepperview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dagronf/DSFStepperView",
+      "state" : {
+        "revision" : "cde9aa78844b3fa64be3c398b38c9b5f07876985",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "viviewinvalidating",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dagronf/VIViewInvalidating",
+      "state" : {
+        "revision" : "7539fb18d8366c338a701b32ec356a756c965b81",
+        "version" : "3.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
