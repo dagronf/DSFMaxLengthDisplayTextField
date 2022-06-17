@@ -41,7 +41,7 @@ open class DSFMaxLengthDisplayTextField: NSTextField, VIViewCustomInvalidating {
 
 	// MARK: - Counting
 
-	/// The maximum number of grapheme clusters allowed in the field (eg. "🧖🏼‍♀️💆‍♂️🙆🏾abc" == 6)
+	/// The maximum number of grapheme clusters allowed in the field (eg. "a=🧖🏼‍♀️, b=💆‍♂️, c=🙆🏾" == 13)
 	@IBInspectable @VIViewInvalidating(.display)
 	public dynamic var maxCharacters: Int = 20
 

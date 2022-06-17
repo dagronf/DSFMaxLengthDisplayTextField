@@ -58,12 +58,13 @@ internal extension DSFMaxLengthDisplayTextField {
 	}
 
 	func update() {
+		// Need to update the content on the main thread
 		DispatchQueue.main.async { [weak self] in
 			self?._update()
 		}
 	}
 
-	func _update() {
+	private func _update() {
 		let defaultTraits: [NSAttributedString.Key: Any] = [
 			.font: self.font as Any,
 			.foregroundColor: NSColor.textColor,
